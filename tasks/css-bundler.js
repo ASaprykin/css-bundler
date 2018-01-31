@@ -17,6 +17,6 @@ module.exports = function(grunt) {
         });
       });
     });
-    batch.end(this.async());
+    batch.end(this.async()());
   });
 };
